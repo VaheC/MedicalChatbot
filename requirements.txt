@@ -8,3 +8,4 @@ langchain-experimental==0.4.1
 langchain-openai==1.1.6
 langchain-pinecone==0.2.13
 pinecone[grpc]==7.3.0
+- e .
