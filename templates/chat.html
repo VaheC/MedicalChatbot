@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediBot - Your Medical Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-info">
+                <i class="fas fa-user-md"></i>
+                <div>
+                    <h2>MediBot</h2>
+                    <p>Your AI Medical Assistant</p>
+                </div>
+            </div>
+            <span class="status">Online</span>
+        </div>
+        
+        <div class="chat-messages" id="messages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    <p>Hello! I'm MediBot, your AI-powered medical assistant. I can help answer general questions about symptoms, conditions, treatments, and wellness.</p>
+                    <p><strong>Important:</strong> I am not a doctor. My responses are for informational purposes only and not a substitute for professional medical advice. Always consult a qualified healthcare provider for personal health concerns.</p>
+                    <p>How can I assist you today?</p>
+                </div>
+            </div>
+            <!-- User messages will be added here dynamically -->
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your medical question here..." autocomplete="off">
+            <button id="send-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+        
+        <div class="disclaimer">
+            <p>This chatbot provides general medical information only. For emergencies, call your local emergency services.</p>
+        </div>
+    </div>
+</body>
+</html>
